@@ -1,0 +1,25 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.menu-bar{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    
+}
+.menu-bar a{
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+
+.active, .menu-bar a:hover
+{
+    background-color: rgba(25, 189, 19, 0.877);
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
