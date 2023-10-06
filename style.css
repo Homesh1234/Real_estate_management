@@ -1,0 +1,96 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://cdn.wallpapersafari.com/5/10/pmKaBu.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background-color: rgba(99, 104, 100, 0.719);
+    text-align: center;
+    padding: 3px;
+    margin: 15px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li
+{
+    width: 190px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar a:hover
+{
+    background: rgb(102, 104, 99);
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 
+{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: rgb(102, 104, 99);
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-2 
+{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: rgb(102, 104, 99);
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display: block;
+    margin: 5px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
